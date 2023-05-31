@@ -1,0 +1,16 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  box-sizing: border-box;
+  position: relative;
+  background: rgba(0, 238, 255, 0.5);
+
+}
+.App {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 1250px;
+}
