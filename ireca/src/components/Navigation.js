@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Navigation.css"
 
 function Navigation () {
 
@@ -11,7 +12,7 @@ function Navigation () {
     <React.Fragment>
         <div class="navigation-container">
     <div class="logo">
-        <img src='./images/logo_mobile.png' />
+        <img src='./logo_mobile.png' />
     </div>
 		<div class="sidebar" id="sidebar">
 		  <ul>
