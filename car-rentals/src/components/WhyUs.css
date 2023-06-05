@@ -1,0 +1,89 @@
+.why-us{
+    display: block;
+    max-width: 100%;
+    margin:20px;
+    overflow: hidden;
+}
+.why-us h2{
+    font-size: 26px;
+    padding-top: 50px;
+    text-transform: capitalize;
+    letter-spacing: 1.3px;
+}
+.why-us-container{
+    display: block;
+}
+.why-us-first, .why-us-second{
+    display: block;
+    max-width: 350px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+.why-us-body{
+    border: 2px dashed rgb(231, 80, 53);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    position: relative;
+    text-align: left;
+    cursor: pointer;
+    transition: all .4s;
+}
+.why-us-first .why-us-body:nth-child(1):hover{
+background: url(../../public/Homepage-Model-X-Mobile-LHD.jpeg);
+background-position: center;
+background-size: cover;
+color: #ccc;
+text-shadow: 1px 1px #000;
+}
+.why-us-first .why-us-body:nth-child(2):hover{
+    background: url(../../public/Lexus-GS-fsport-600x400.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #ccc;
+    text-shadow: 1px 1px #000;
+}
+.why-us-second .why-us-body:nth-child(1):hover{
+    background: url(../../public/Lexus-GS-350-600x400.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #ccc;
+    text-shadow: 1px 1px #000;
+}
+.why-us-second .why-us-body:nth-child(2):hover{
+    background: url(../../public/2019-Lexus-ES-600x400.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #ccc;
+    text-shadow: 1px 1px #000;
+}
+.why-us-body h3{
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 45px;
+    padding-left: 25px;
+}
+.why-us-body span{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: block;
+    font-weight: 700;
+    color: rgb(248, 182, 59);
+    text-shadow: 1px 1px #000;
+    font-size: 20px;
+}
+.why-us-body p{
+    padding-left: 25px;
+    line-height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+@media screen and (min-width:760px) {
+    .why-us-container{
+        display: flex;
+        max-width: 1100px;
+        text-align: center;
+        align-items: center;
+    }
+}
