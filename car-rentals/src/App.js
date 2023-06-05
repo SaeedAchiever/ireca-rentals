@@ -7,6 +7,7 @@ import RentPage from './components/RentPage';
 import SmallNote from './components/SmallNote';
 import WhyUs from './components/WhyUs';
 import Contact from './components/Contact';
+import SaveMoney from './components/SaveMoney'
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
        <RentPage />
        <SmallNote />
        <WhyUs />
-       <Contact />
+       <SaveMoney />
+        <Contact />
     </div>
   );
 }
