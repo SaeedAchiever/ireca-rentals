@@ -8,6 +8,9 @@ import SmallNote from './components/SmallNote';
 import WhyUs from './components/WhyUs';
 import Contact from './components/Contact';
 import SaveMoney from './components/SaveMoney'
+import WhoAreWe from './components/WhoAreWe';
+import Maps from './components/Maps';
+import Testimonial from './components/Testimonial';
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
        <WhyUs />
        <SaveMoney />
         <Contact />
+        <WhoAreWe />
+        <Maps />
+        <Testimonial />
     </div>
   );
 }
