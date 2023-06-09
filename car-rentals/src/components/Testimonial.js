@@ -7,7 +7,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Pagination, Scrollbar, A11y } from 'swiper';
 import 'swiper/swiper-bundle.css';
 import SwiperCore, { Autoplay } from 'swiper';
 
@@ -18,10 +18,9 @@ function Testimonial(){
 
             
             <Swiper
-       modules={[Navigation, Pagination, Scrollbar, A11y]}
+       modules={[ Pagination, Scrollbar, A11y]}
        spaceBetween={50}
        slidesPerView={1}
-       navigation
        pagination={{ clickable: true }}
        scrollbar={{ draggable: true }}
        autoplay={{ delay: 3000 }}

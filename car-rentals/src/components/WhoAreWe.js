@@ -46,8 +46,8 @@ function WhoAreWe(){
                      Have a wonderful day and remember this is but a demo.
                     </p>
                     <div className="who-are-we-btns">
-                        <button>see all vehicles</button>
-                        <button>reserve ride now</button>
+                        <button>all vehicles</button>
+                        <button>reserve now</button>
                     </div>
                 </div>
 

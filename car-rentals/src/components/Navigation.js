@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Navigation.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 function Navigation () {
 
@@ -23,7 +25,7 @@ function Navigation () {
 		  </ul>
 		</div>
     <div  class="toggle-button">
-      <button onClick={toggleSidebar}>Menu</button>
+      <button onClick={toggleSidebar}><FontAwesomeIcon icon={faBars} /></button>
     </div>
 		
 	  </div>

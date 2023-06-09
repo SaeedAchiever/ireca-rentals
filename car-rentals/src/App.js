@@ -11,12 +11,13 @@ import SaveMoney from './components/SaveMoney'
 import WhoAreWe from './components/WhoAreWe';
 import Maps from './components/Maps';
 import Testimonial from './components/Testimonial';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
        <Navigation />
-       <HeroHome />
+       <FirstClassRental />
        <HomeNote />
        <FirstClassRental />
        <RentPage />
@@ -27,6 +28,7 @@ function App() {
         <WhoAreWe />
         <Maps />
         <Testimonial />
+        <Footer />
     </div>
   );
 }

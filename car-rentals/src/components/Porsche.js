@@ -7,7 +7,7 @@ function Porsche() {
         <div className='rental-body'>
             <div className='main-car'>
                 <div className='rental-img'>
-                    <img src='./Homepage-Model-X-Mobile-LHD.jpeg' alt='Image'/>
+                    <img src='./ag_mc_ford_raptor_5k-1280x720-1-750x420.jpg' alt='Image'/>
                 </div>
                 <div className='rental-img-info'>
                         <div className='rental-img-info-head'>

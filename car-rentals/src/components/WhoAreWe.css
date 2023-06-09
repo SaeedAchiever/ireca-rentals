@@ -4,6 +4,7 @@
     margin: 0 auto;
     align-items: center;
     background: #ee56c8b3;
+    padding-bottom: 20px;
 }
 .who-are-we-image{
     max-width: 400px;
@@ -108,14 +109,16 @@
     max-width: 400px;
     text-align: center;
     margin: 15px 10px;
+    padding-bottom: 20px;
 }
 .who-are-we-btns button{
-    max-width: 200px;
+    max-width: 300px;
     display: block;
+    font-size: 17px;
     margin: 0 auto;
     background: transparent;
     border: 2px dashed #ffc;
-    padding: 10px 5px;
+    padding: 10px 15px;
     text-transform: capitalize;
     color: #666;
     transition: all .4s ease-in-out;

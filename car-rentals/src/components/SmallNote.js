@@ -18,7 +18,7 @@ function SmallNote() {
             <h2>
                 place a call <span>0596116171</span>
             </h2>
-            <button>Request a quote</button>
+            <button>get a quote</button>
         </div>
       </div>
     </div>

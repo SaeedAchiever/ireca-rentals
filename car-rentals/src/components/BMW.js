@@ -34,7 +34,7 @@ function BMW() {
         <div className='rental-body'>
             <div className='main-car'>
                 <div className='rental-img'>
-                    <img src='./Homepage-Model-X-Mobile-LHD.jpeg'/>
+                    <img src='./2018_ford_mustang_ecoboost_convertible_4k_2-1280x720-1-750x420.jpg'/>
                 </div>
                 <div className='rental-img-info'>
                         <div className='rental-img-info-head'>

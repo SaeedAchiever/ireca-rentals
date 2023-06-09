@@ -16,13 +16,13 @@
     margin: 10px 20px;
   }
   button{
-    border: 2px dashed #ccf;
+    border: none;
     color: #ccc;
     margin-top: 15px;
     padding: 3px 10px;
     border-radius: 5px;
     background: none;
-    font-size: 17px;
+    font-size: 30px;
     font-weight: 700;
     cursor: pointer;
   }

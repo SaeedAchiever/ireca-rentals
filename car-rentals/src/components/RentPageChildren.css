@@ -16,8 +16,6 @@
     .rental-body-container.active-page{
         display: grid;
         grid-template-columns: repeat(3, minmax(auto, 2fr));
-        align-items: center;
-        text-align: center;
     }
     
 }

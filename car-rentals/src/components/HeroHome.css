@@ -1,6 +1,6 @@
 .hero-container{
     width: 100%;
-    height: fit-content;
+    height: 100vh;
     display: block;
     background-color: #222;
     position: relative;
@@ -14,20 +14,20 @@ Swiper{
     height: fit-content;
 }
 .hero-container img{
-    max-width: 100%;
+    max-width: 90%;
     position: relative;
 }
 .text-head{
     margin-top: 20px;
     text-align: center;
     display: inline-flex;
+    line-height: 30px;
 }
 .text-head h4{
     color: #fff;
     margin-top: 5px;
     font-weight: 300;
     font-size: 13px;
-    line-height: 23px;
     font-family: sans-serif;
     text-transform: uppercase;
 }
@@ -36,14 +36,12 @@ Swiper{
     font-weight: 500;
     font-size: 35px;
     margin-left: 15px;
-    line-height: 30px;
 }
 .text-head h3{
     color: #fff;
     font-weight: 400;
     font-size: 20px;
     margin-left: 15px;
-    line-height: 15px;
     text-transform: capitalize;
     margin-top: -5px;
 }
@@ -65,9 +63,6 @@ Swiper{
     text-shadow: -2px 2px #000;
     color: #c4e923; 
 }
-.text-image .left, .text-image .right{
-    line-height: 50px;
-}
 .text-image ul{
     list-style: none;
 }
@@ -87,6 +82,7 @@ Swiper{
 }
 .text-foot a{
     display: block;
+    max-width: 170px;
     margin: 0 auto;
     margin-bottom: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -100,7 +96,6 @@ Swiper{
     font-weight: 400;
     color: #ebdd1b;
     background-color: transparent;
-    width: 100px;
     padding: 5px 20px;
 
 }
@@ -110,14 +105,14 @@ Swiper{
     font-weight: 400;
     color: #fff;
     background-color: yellowgreen;
-    width: 100px;
     padding: 5px 20px;
 }
-
+FontAwesomeIcon{
+    font-size: 2px;
+}
 
 @media screen and (max-width:700px) {
     .text-image{
-        line-height: 110px;
         width: 60%;
     }
 }

@@ -10,6 +10,10 @@ import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import 'swiper/swiper-bundle.css';
 import SwiperCore, { Autoplay } from 'swiper';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars, faEllipsis, faEnvelope, faGreaterThan, faLessThan, faEye } from '@fortawesome/free-solid-svg-icons'
+
+
 function HeroHome() {
 
     SwiperCore.use([Autoplay])
@@ -34,30 +38,18 @@ function HeroHome() {
         
         <div className='text-image'>
 
-          <div className='left'>
-            <ul>
-              <li>2015</li>
-              <li>Tiptronic</li>
-              <li>2500&nbsp;cc</li>
-            </ul>
-          </div>
+         
           <div className='center'>
           <span>camaro <i class="fa-solid fa-house-chimney"></i></span>
             <img src='./slide1_car.png' />
           </div>
-          <div className='right'>
-          <ul>
-              <li>petrol</li>
-              <li>5 psgs</li>
-              <li>5&nbsp;doors</li>
-            </ul>
-          </div>
+      
 
 </div>
 
         <div className='text-foot'>
-            <a href="#">Learn&nbsp;More</a>
-            <a href="#">View&nbsp;Price</a>
+            <a href="#"><FontAwesomeIcon icon={faLessThan} /><FontAwesomeIcon icon={faEllipsis} /><FontAwesomeIcon icon={faGreaterThan} /> Learn&nbsp;More</a>
+            <a href="#"><FontAwesomeIcon icon={faEye} /> View&nbsp;Price</a>
         </div>
       </SwiperSlide>
 
@@ -70,24 +62,12 @@ function HeroHome() {
         
         <div className='text-image'>
 
-          <div className='left'>
-            <ul>
-              <li>2015</li>
-              <li>Tiptronic</li>
-              <li>2500&nbsp;cc</li>
-            </ul>
-          </div>
+      
           <div className='center'>
           <span>camaro <i class="fa-solid fa-house-chimney"></i></span>
             <img src='./slide1_car3-1.png' />
           </div>
-          <div className='right'>
-          <ul>
-              <li>petrol</li>
-              <li>5 psgs</li>
-              <li>5&nbsp;doors</li>
-            </ul>
-          </div>
+         
 
         </div>
 
@@ -106,24 +86,12 @@ function HeroHome() {
         
         <div className='text-image'>
 
-            <div className='left'>
-              <ul>
-                <li>2015</li>
-                <li>Tiptronic</li>
-                <li>2500&nbsp;cc</li>
-              </ul>
-            </div>
+            
             <div className='center'>
             <span>camaro <i class="fa-solid fa-house-chimney"></i></span>
               <img src='./Lexus-GS-fsport-600x400.jpg' />
             </div>
-            <div className='right'>
-            <ul>
-                <li>petrol</li>
-                <li>5 psgs</li>
-                <li>5&nbsp;doors</li>
-              </ul>
-            </div>
+             
 
 </div>
 
@@ -142,23 +110,10 @@ function HeroHome() {
         
         <div className='text-image'>
 
-        <div className='left'>
-          <ul>
-            <li>2015</li>
-            <li>Tiptronic</li>
-            <li>2500&nbsp;cc</li>
-          </ul>
-        </div>
+
         <div className='center'>
         <span>camaro <i class="fa-solid fa-house-chimney"></i></span>
           <img src='./2019-Lexus-Lineup-600x400.jpg' />
-        </div>
-        <div className='right'>
-        <ul>
-            <li>petrol</li>
-            <li>5 psgs</li>
-            <li>5&nbsp;doors</li>
-          </ul>
         </div>
 
 </div>

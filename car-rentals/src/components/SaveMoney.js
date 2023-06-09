@@ -8,8 +8,9 @@ function SaveMoney(){
                 <div className='save-money-text'>
                     <h3>save money with <br /> our rental</h3>
                     <h4>
-                     <span> <img src='./h2-icon.png'/></span>   
-                     <span>+233 59616171</span></h4>
+                        <span> <img src='./h2-icon.png'/></span>   
+                        <span>+233&nbsp;59616171</span>
+                     </h4>
                 </div>
            </div>
         </div>

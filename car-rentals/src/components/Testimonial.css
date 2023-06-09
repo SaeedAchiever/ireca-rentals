@@ -4,19 +4,26 @@
     margin: 0 auto;
     background-color: rgba(235, 65, 184, 0.5);
     margin-top: 100px;
-
 }
 .main-testimony{
     max-width: 400px;
     margin: 0 auto;
 }
 .main-testimony-body{
+    max-width: 400px;
+    margin: 0 auto;
     background: rgba(235, 65, 184, 0.3);
     box-shadow: -5px -5px 2px 2px rgba(224, 235, 65, 0.3);
     padding: 20px;
     margin-top: 30px;
-    border-bottom-right-radius: 130px;
-    border-top-left-radius: 130px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 100px;
+    border-right: 2px solid black;
+}
+@media screen and (max-width:500px) {
+    .main-testimony-body{
+        max-width: 250px;
+    }
 }
 .main-testimony p{
     line-height: 35px;
