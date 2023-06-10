@@ -5,7 +5,6 @@ import 'swiper/swiper-bundle.min.css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import 'swiper/swiper-bundle.css';
 import SwiperCore, { Autoplay } from 'swiper';

@@ -12,12 +12,13 @@ import WhoAreWe from './components/WhoAreWe';
 import Maps from './components/Maps';
 import Testimonial from './components/Testimonial';
 import Footer from './components/Footer';
+import Landingpage from './components/Landingpage';
 
 function App() {
   return (
     <div className="App">
        <Navigation />
-       <FirstClassRental />
+       <Landingpage />
        <HomeNote />
        <FirstClassRental />
        <RentPage />
