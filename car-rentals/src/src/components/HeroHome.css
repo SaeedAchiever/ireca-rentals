@@ -1,0 +1,118 @@
+.hero-container{
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-color: #222;
+    position: relative;
+}
+.swiper-slide{
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+Swiper{
+    height: fit-content;
+}
+.hero-container img{
+    max-width: 90%;
+    position: relative;
+}
+.text-head{
+    margin-top: 20px;
+    text-align: center;
+    display: inline-flex;
+    line-height: 30px;
+}
+.text-head h4{
+    color: #fff;
+    margin-top: 5px;
+    font-weight: 300;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.text-head h2{
+    color: rgb(240, 165, 27);
+    font-weight: 500;
+    font-size: 35px;
+    margin-left: 15px;
+}
+.text-head h3{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 15px;
+    text-transform: capitalize;
+    margin-top: -5px;
+}
+.text-image{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.text-image span{
+    display: block;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-shadow: -2px 2px #000;
+    color: #c4e923; 
+}
+.text-image ul{
+    list-style: none;
+}
+.text-image ul li{
+    color: rgb(228, 100, 240);
+    font-size: 12px;
+    text-transform: none;
+    font-weight: 400;
+    padding: 3px;
+}
+
+.text-foot{
+    text-align: center;
+    justify-content: center;
+    margin: 30px;
+    overflow-x: hidden;
+}
+.text-foot a{
+    display: block;
+    max-width: 170px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.text-foot a:nth-child(1){
+    border: 2px dotted #000;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ebdd1b;
+    background-color: transparent;
+    padding: 5px 20px;
+
+}
+.text-foot a:nth-child(2){
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    background-color: yellowgreen;
+    padding: 5px 20px;
+}
+FontAwesomeIcon{
+    font-size: 2px;
+}
+
+@media screen and (max-width:700px) {
+    .text-image{
+        width: 60%;
+    }
+}

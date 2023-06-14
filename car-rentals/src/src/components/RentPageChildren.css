@@ -1,0 +1,168 @@
+.rental-body-container{
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+.rental-body-container.active-page{
+    display: block;
+}
+@media screen and (min-width:600px) and (max-width:940px) {
+    .rental-body-container.active-page{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(auto, 2fr));
+    }
+}
+@media screen and (min-width:941px) {
+    .rental-body-container.active-page{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(auto, 2fr));
+    }
+    
+}
+.rental-head{
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+.rental-head h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.rental-head span{
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.rental-btns{
+    width: 300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(50px, 2fr));
+    padding:20px 10px;
+}
+.btn{
+    margin: 10px;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    background-color: none;
+    padding: 13px 7px;
+    text-transform: uppercase;
+    color: #666;
+    border: 2px dashed #ffa500;
+    transition: all .3s ease-in-out;
+}
+.btn:hover{
+    background: #ffa500;
+    border: 2px solid #ffa500;
+    color: #fff;
+}
+.btn.activeBtn{
+    background: rgba(100, 120, 130, 0.7);
+}
+.rental-btns button sup{
+    padding: 2px 5px;
+    font-size: 12px;
+}
+.rental-body{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+.main-car{
+    position: relative;
+    width: 100%;
+    display: block;
+    box-shadow: 13px -13px 10px -10px rgba(0, 0, 0, 0.56);
+}
+.rental-img{
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+}
+.rental-img img{
+    max-width: 100%;
+    margin-top: 20px;
+}
+.rental-img-info{
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+    border: 1.5px dashed orange;
+    margin-top: 5px;
+    position: relative;
+    background: #f350e5;
+}
+.rental-img-info-head button{
+    padding: 5px 30px;
+    background: #fff;
+    position: absolute;
+    font-size: 20px;
+    top: -20%;
+    left: 30%;
+    transform: translate(-17% -25%);
+    transition: all .3s ease-in-out;
+}
+.rental-img-info-head button a{
+    text-decoration: none;
+    color: #333;
+    border: 2px transparent;
+}
+.rental-img-info-head button:hover{
+    background: #ffa500;
+    color: #ffc0cb;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.56);
+    border: inherit;
+}
+.rental-img-info-head button span{
+    display: block;
+    font-size: 12px;
+}
+.rental-img-info-head h3{
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.rental-img-info-head p{
+    font-size: 15px;
+    font-weight: 540;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+}
+.rental-img-info-head p span{
+    font-weight: 700;
+}
+.rental-img-info-body{
+    width: 80%;
+    height: fit-content;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 20%;
+}
+.rental-img-info-body ul{
+    list-style: none;
+    line-height: 33px;
+}
+.rental-img-info-body ul li{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+.rental-img-info-body ul:nth-child(1){
+    float: left;
+}
+
+
