@@ -1,0 +1,213 @@
+.who-are-we-container{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    background: #ee56c8b3;
+    padding-bottom: 20px;
+}
+.who-are-we-image{
+    max-width: 400px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    padding: 10px 20px;
+}
+.who-are-we-image img{
+    max-width: 100%;
+}
+.hover-text{
+    position: absolute;
+    color: white;
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px rgb(144, 60, 240);
+    line-height: 30px;
+    padding-bottom: 10px;
+    opacity: 0;
+    left: 10%;
+    transition: all .5s;
+    background: rgba(0, 0, 0, 0.3);
+}
+.hover-text button{
+    display: block;
+    margin: 0 auto;
+    border: 2px dashed rgb(207, 65, 136);
+}
+.hover-text button a{
+    text-transform: capitalize;
+    color: rgb(167, 218, 50);
+    text-decoration: none;
+    font-weight: 500;
+}
+.who-are-we-image:hover > .hover-text{
+    transform: translateY(-130%);
+    opacity: 1;
+}
+.who-are-we-note{
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+    padding-top:20px;
+    text-align: left;
+    border: 3px dashed rgb(199, 218, 33);
+}
+.who-are-we-note h5{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: white;
+    margin-left: 20px;
+    text-shadow: 1px 1px black;
+}
+.who-are-we-note h3{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: #e5e768;
+    margin-left: 30px;
+    text-shadow: 1px 1px black;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.who-are-we-note h3 span a{
+    font-size: 30px;
+    color: rgb(250, 106, 86);
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: none;
+    border: 1px solid blue; 
+    padding: 5px;   
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all .3s ease-in-out;
+}
+.who-are-we-note h3 span a:hover{
+    background: url(../../public/logo_mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.who-are-we-note p{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    max-width: 100%;
+}
+.who-are-we-btns{
+    display: flex;
+    max-width: 400px;
+    text-align: center;
+    margin: 15px 10px;
+    padding-bottom: 20px;
+}
+.who-are-we-btns button{
+    max-width: 300px;
+    display: block;
+    font-size: 17px;
+    margin: 0 auto;
+    background: transparent;
+    border: 2px dashed #ffc;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    color: #666;
+    transition: all .4s ease-in-out;
+}
+.who-are-we-btns button:nth-child(1){
+    background: #ffd700;
+    color: #ee56c8b3;
+}
+.who-are-we-btns button:nth-child(2):hover{
+    background: #2d5253;
+    color: hsl(0, 0%, 100%);
+}
+@media screen and (min-width:760px) {
+.who-are-we-container{
+    display: flex;
+    border: 3px dashed #333;
+    padding: 20px;
+}
+}
+
+/* CALL AND DICOUNT */
+
+.call-discount{
+    display: block;
+    width: 100%;
+    background: #000;
+}
+.call-discount-call, .call-discount-discount{
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: right;
+    align-items: center;
+}
+.call-discount-call h4{
+    color: #ffc;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 300;
+}
+.call-discount-call h2{
+    color: #ffc;
+    font-weight: 600;
+    font-size: 26px;
+}
+.call-discount-call h3{
+    color: #ffc;
+    font-weight: 300;
+    font-size: 17px;
+    text-transform: lowercase;
+    word-spacing: 12px;
+    letter-spacing: 2px;
+}
+.call-discount-image{
+    max-width: 300px;
+    margin: 0 auto;
+}
+.call-discount-image img{
+    max-width: 100%;
+}
+.call-discount-discount h4{
+    color: #ffc;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 300;
+}
+.call-discount-discount h2{
+    color: #ffc;
+    font-weight: 600;
+    font-size: 26px;
+    text-transform: capitalize;
+}
+.call-discount-discount h5{
+    color: #ffc;
+    font-weight: 300;
+    font-size: 17px;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+}
+.call-discount-discount h5 span{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+@media screen and (min-width:760px) {
+    .call-discount{
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+}
