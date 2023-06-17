@@ -44,7 +44,7 @@ class Lexus extends Component {
   render() {
     return (
       <div>
-        {
+        {/*
           this.state.map(( {name, imgUrl}) => (
             <div  className='rental-body-container active-page'>
               <div className='rental-body'>
@@ -78,10 +78,10 @@ class Lexus extends Component {
             </div>
           </div>
         </div>
-        ))}
+          ))*/}
 
         
-        {/*<div className='rental-body-container active-page'>
+        <div className='rental-body-container active-page'>
           <div className='rental-body'>
             <div className='main-car'>
               <div className='rental-img'>
@@ -90,7 +90,7 @@ class Lexus extends Component {
               <div className='rental-img-info'>
                 <div className='rental-img-info-head'>
                   <button onClick={this.rentLexusOne}><a href='#booking-container'>GHC&nbsp;100 /day <span>Rent&nbsp;Me</span></a></button>
-                  <h3>{this.lexus[0]}</h3>
+                  <h3>Lexus One</h3>
                   <p><span>0</span> reviews</p>
                 </div>
                 <div className='rental-img-info-body'>
@@ -121,7 +121,7 @@ class Lexus extends Component {
                       GHC&nbsp;100 /day <span>Rent&nbsp;Me</span>
                     </a>
                   </button>
-                  <h3>{this.lexus[1]}</h3>
+                  <h3>Lexus Two</h3>
                   <p><span>0</span> reviews</p>
                 </div>
                 <div className='rental-img-info-body'>
@@ -148,7 +148,7 @@ class Lexus extends Component {
               <div className='rental-img-info'>
                 <div className='rental-img-info-head'>
                   <button onClick={this.rentLexusOne}><a href='#booking-container'>GHC&nbsp;100 /day <span>Rent&nbsp;Me</span></a></button>
-                  <h3>{this.lexus[2]}</h3>
+                  <h3>Lexus Three</h3>
                   <p><span>0</span> reviews</p>
                 </div>
                 <div className='rental-img-info-body'>
@@ -175,7 +175,7 @@ class Lexus extends Component {
               <div className='rental-img-info'>
                 <div className='rental-img-info-head'>
                   <button onClick={this.rentLexusOne}><a href='#booking-container'>GHC&nbsp;100 /day <span>Rent&nbsp;Me</span></a></button>
-                  <h3>{this.lexus[3]}</h3>
+                  <h3>Lexus Four</h3>
                   <p><span>0</span> reviews</p>
                 </div>
                 <div className='rental-img-info-body'>
@@ -202,7 +202,7 @@ class Lexus extends Component {
               <div className='rental-img-info'>
                 <div className='rental-img-info-head'>
                   <button onClick={this.rentLexusOne}><a href='#booking-container'>GHC&nbsp;110 /day <span>Rent&nbsp;Me</span></a></button>
-                  <h3>{this.lexus[4]}</h3>
+                  <h3>Lexus Five</h3>
                   <p><span>0</span> reviews</p>
                 </div>
                 <div className='rental-img-info-body'>
@@ -221,7 +221,7 @@ class Lexus extends Component {
             </div>
           </div>
            Rest of the code
-        </div> */}
+        </div> 
       </div>
     );
   }
