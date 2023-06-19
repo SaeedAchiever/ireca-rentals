@@ -30,8 +30,8 @@ function RentPageHead() {
 
         <div className='rental-btns'>
             <button onClick={showPage} id='rentalBtn' className=' btn activeBtn'>Lexus<sup>05</sup></button>
-            <button onClick={showPage} id='rentalBtn' className=' btn'> Audi<sup>02</sup></button>
-            <button onClick={showPage} id='rentalBtn' className=' btn'>Porsche<sup>04</sup></button>
+            <button onClick={showPage} id='rentalBtn' className=' btn'> Audi<sup>03</sup></button>
+            <button onClick={showPage} id='rentalBtn' className=' btn'>Porsche<sup>03</sup></button>
             <button onClick={showPage} id='rentalBtn' className=' btn'>BMW<sup>02</sup></button>
         </div>
     </div>

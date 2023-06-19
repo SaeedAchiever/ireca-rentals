@@ -1,6 +1,6 @@
 .Landing-page-container{
     width: 100%;
-    max-height: 100vh;
+    height: 75vh;
     background: #ffd700;
     display: flex;
     align-items: center;

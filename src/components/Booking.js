@@ -9,7 +9,7 @@ class Booking extends Component{
       super(props)
     
       this.state = {
-          
+        
       }
     }
 
@@ -38,13 +38,7 @@ class Booking extends Component{
                             <option>mrs</option>
                         </select>
                         <label>car name</label>
-                        <select>
-                            <option className='me'>--select--</option>
-                            <option>Lexus</option>
-                            <option>Audi</option>
-                            <option>Porsche</option>
-                            <option>BMW</option>
-                        </select>
+                         <input id='carName' readOnly></input>
                         <label>first name</label>
                         <input type='text'/>
                         <label>last name</label>

@@ -1,6 +1,4 @@
 import './RentPageChildren.css';
-import Booking from './Booking';
-import "./Booking.css";
 import React, { Component } from 'react';
 
 class Lexus extends Component {
@@ -30,31 +28,48 @@ class Lexus extends Component {
           imgUrl:"./2018_ford_mustang_ecoboost_convertible_4k_2-1280x720-1-750x420.jpg"
         }
       ]
-  let rentbtn = document.getElementById("btn");
-
   }
  
   
 
-  rentLexusOne = () => {
+  rentCar = (name) => {
+
+    // Getting individual buttons for its own function
+
+    if(name){
+      document.getElementById("carName").value = name;
+    }
+    else if(name){
+      document.getElementById("carName").value = name;
+    }
+    else if(name){
+      document.getElementById("carName").value = name;
+    }
+    else if(name){
+      document.getElementById("carName").value = name;
+    }
+    else if(name){
+      document.getElementById("carName").value = name;
+    }
+
     let show = document.getElementById("booking-container");
     show.classList.toggle("display");
   }
 
   render() {
     return (
-      <div>
-        {/*
+      <div className='rental-body-container active-page'>
+        {
           this.state.map(( {name, imgUrl}) => (
-            <div  className='rental-body-container active-page'>
+            <div>
               <div className='rental-body'>
                <div className='main-car'>
                 <div className='rental-img'>
-                 <img src={imgUrl} />
+                 <img src={imgUrl} alt='Cars for rent'/>
                </div>
               <div className='rental-img-info'>
                 <div className='rental-img-info-head'>
-                  <button onClick={this.rentLexusOne} id='btn'>
+                  <button onClick={() => this.rentCar(name)} id='btn'>
                     <a href='#booking-container'>GHC&nbsp;100 /day 
                      <span>Rent&nbsp;Me</span>
                     </a>
@@ -78,150 +93,7 @@ class Lexus extends Component {
             </div>
           </div>
         </div>
-          ))*/}
-
-        
-        <div className='rental-body-container active-page'>
-          <div className='rental-body'>
-            <div className='main-car'>
-              <div className='rental-img'>
-                <img src='./macan-02-600x400.jpeg' />
-              </div>
-              <div className='rental-img-info'>
-                <div className='rental-img-info-head'>
-                  <button onClick={this.rentLexusOne}><a href='#booking-container'>GHC&nbsp;100 /day <span>Rent&nbsp;Me</span></a></button>
-                  <h3>Lexus One</h3>
-                  <p><span>0</span> reviews</p>
-                </div>
-                <div className='rental-img-info-body'>
-                  <ul>
-                    <li>2020</li>
-                    <li>Tiptronic</li>
-                    <li>2500 cc</li>
-                  </ul>
-                  <ul>
-                    <li>Petrol</li>
-                    <li>5</li>
-                    <li>5 Doors</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className='rental-body'>
-            <div className='main-car'>
-              <div className='rental-img'>
-                <img src='./Lexus-GS-350-600x400.jpg' />
-              </div>
-              <div className='rental-img-info'>
-                <div className='rental-img-info-head'>
-                  <button onClick={this.rentLexusOne}>
-                    <a href='#booking-container'>
-                      GHC&nbsp;100 /day <span>Rent&nbsp;Me</span>
-                    </a>
-                  </button>
-                  <h3>Lexus Two</h3>
-                  <p><span>0</span> reviews</p>
-                </div>
-                <div className='rental-img-info-body'>
-                  <ul>
-                    <li>2020</li>
-                    <li>Tiptronic</li>
-                    <li>2500 cc</li>
-                  </ul>
-                  <ul>
-                    <li>Petrol</li>
-                    <li>5</li>
-                    <li>5 Doors</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className='rental-body'>
-            <div className='main-car'>
-              <div className='rental-img'>
-                <img src='./2019-Lexus-ES-600x400.jpg' />
-              </div>
-              <div className='rental-img-info'>
-                <div className='rental-img-info-head'>
-                  <button onClick={this.rentLexusOne}><a href='#booking-container'>GHC&nbsp;100 /day <span>Rent&nbsp;Me</span></a></button>
-                  <h3>Lexus Three</h3>
-                  <p><span>0</span> reviews</p>
-                </div>
-                <div className='rental-img-info-body'>
-                  <ul>
-                    <li>2020</li>
-                    <li>Tiptronic</li>
-                    <li>2500 cc</li>
-                  </ul>
-                  <ul>
-                    <li>Petrol</li>
-                    <li>5</li>
-                    <li>5 Doors</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className='rental-body'>
-            <div className='main-car'>
-              <div className='rental-img'>
-                <img src='./2019-Lexus-Lineup-600x400.jpg' />
-              </div>
-              <div className='rental-img-info'>
-                <div className='rental-img-info-head'>
-                  <button onClick={this.rentLexusOne}><a href='#booking-container'>GHC&nbsp;100 /day <span>Rent&nbsp;Me</span></a></button>
-                  <h3>Lexus Four</h3>
-                  <p><span>0</span> reviews</p>
-                </div>
-                <div className='rental-img-info-body'>
-                  <ul>
-                    <li>2020</li>
-                    <li>Tiptronic</li>
-                    <li>2500 cc</li>
-                  </ul>
-                  <ul>
-                    <li>Petrol</li>
-                    <li>5</li>
-                    <li>5 Doors</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className='rental-body'>
-            <div className='main-car'>
-              <div className='rental-img'>
-                <img src='./2018_ford_mustang_ecoboost_convertible_4k_2-1280x720-1-750x420.jpg' />
-              </div>
-              <div className='rental-img-info'>
-                <div className='rental-img-info-head'>
-                  <button onClick={this.rentLexusOne}><a href='#booking-container'>GHC&nbsp;110 /day <span>Rent&nbsp;Me</span></a></button>
-                  <h3>Lexus Five</h3>
-                  <p><span>0</span> reviews</p>
-                </div>
-                <div className='rental-img-info-body'>
-                  <ul>
-                    <li>2020</li>
-                    <li>Tiptronic</li>
-                    <li>2500 cc</li>
-                  </ul>
-                  <ul>
-                    <li>Petrol</li>
-                    <li>5</li>
-                    <li>5 Doors</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-           Rest of the code
-        </div> 
+          ))}
       </div>
     );
   }
