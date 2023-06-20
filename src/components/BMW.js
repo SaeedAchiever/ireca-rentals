@@ -29,9 +29,6 @@ class BMW extends Component {
     if(name){
       document.getElementById("carName").value = name;
     }
-    else if(name){
-      document.getElementById("carName").value = name;
-    }
 
     // Showing The Booking Form
     

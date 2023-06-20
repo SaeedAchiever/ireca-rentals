@@ -19,7 +19,7 @@ class Booking extends Component{
     }
     
     render(){
-        let {name, imgURL} = this.props
+        let {name, imgURL, price} = this.props
   return (
     <>
         <div className='booking-container' id='booking-container'>

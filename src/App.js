@@ -1,7 +1,6 @@
 import './App.css';
 import Navigation from './components/Navigation';
 import Landingpage from './components/Landingpage';
-import HeroHome from './components/HeroHome';
 import HomeNote from './components/HomeNote';
 import FirstClassRental from './components/FirstClassRental';
 import RentPage from './components/RentPage';
@@ -13,7 +12,6 @@ import WhoAreWe from './components/WhoAreWe';
 import Maps from './components/Maps';
 import Testimonial from './components/Testimonial';
 import Footer from './components/Footer';
-import Booking from './components/Booking';
 
 function App() {
   return (

@@ -1,5 +1,8 @@
 import React from "react";
 import './Testimonial.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons'
+
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
@@ -9,7 +12,6 @@ import 'swiper/css/scrollbar';
 
 import { Pagination, Scrollbar, A11y } from 'swiper';
 import 'swiper/swiper-bundle.css';
-import SwiperCore, { Autoplay } from 'swiper';
 
 function Testimonial(){
     return(
@@ -36,11 +38,17 @@ function Testimonial(){
                 Nulla ullamco tempor quis irure. Consectetur
                 duis laborum deserunt officia officia voluptate
                 sint. "
-                <span className="stars">....</span>
+                <span className="stars">
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStarHalfAlt}/>
+                </span>
             </p>
         </div>
         <div className='main-testimony-image'>
-            <img src="./Snapchat-1230045186.jpg"/>
+            <img src="./Snapchat-1230045186.jpg" alt="Reviewer"/>
         </div>
       </div>
       </SwiperSlide>
@@ -56,11 +64,17 @@ function Testimonial(){
                 Nulla ullamco tempor quis irure. Consectetur
                 duis laborum deserunt officia officia voluptate
                 sint. "
-                <span className="stars">....</span>
+                <span className="stars">
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                </span>
             </p>
         </div>
         <div className='main-testimony-image'>
-            <img src="./Snapchat-1699632714.jpg"/>
+            <img src="./Snapchat-1699632714.jpg" alt="Reviewer"/>
         </div>
       </div>
       </SwiperSlide>
@@ -76,11 +90,16 @@ function Testimonial(){
                 Nulla ullamco tempor quis irure. Consectetur
                 duis laborum deserunt officia officia voluptate
                 sint. "
-                <span className="stars">....</span>
+                <span className="stars">
+                <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                </span>
             </p>
         </div>
         <div className='main-testimony-image'>
-            <img src="./Snapchat-997129417.jpg"/>
+            <img src="./Snapchat-997129417.jpg" alt="Reviewer"/>
         </div>
       </div>
       </SwiperSlide>
@@ -96,11 +115,17 @@ function Testimonial(){
                 Nulla ullamco tempor quis irure. Consectetur
                 duis laborum deserunt officia officia voluptate
                 sint. "
-                <span className="stars">....</span>
+                <span className="stars">
+                <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                    <FontAwesomeIcon icon={faStar}/>
+                </span>
             </p>
         </div>
         <div className='main-testimony-image'>
-            <img src="./zibur.jpg"/>
+            <img src="./zibur.jpg" alt="Reviewer"/>
         </div>
       </div>
       </SwiperSlide>

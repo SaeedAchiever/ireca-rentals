@@ -1,7 +1,4 @@
-
 import './RentPageChildren.css';
-import Booking from './Booking';
-import "./Booking.css";
 import React, { Component } from 'react';
 
 class Porsche extends Component {
@@ -31,12 +28,7 @@ class Porsche extends Component {
         if(name){
           document.getElementById("carName").value = name;
         }
-        else if(name){
-          document.getElementById("carName").value = name;
-        }
-        else if(name){
-          document.getElementById("carName").value = name;
-        }
+        
         
     
         let show = document.getElementById("booking-container");
