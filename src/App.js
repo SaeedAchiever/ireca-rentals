@@ -12,6 +12,7 @@ import WhoAreWe from './components/WhoAreWe';
 import Maps from './components/Maps';
 import Testimonial from './components/Testimonial';
 import Footer from './components/Footer';
+import RentNow from './components/RentNow';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
        <FirstClassRental />
        <RentPage />
        <SmallNote />
+       <RentNow />
        <WhyUs />
        <SaveMoney />
         <Contact />

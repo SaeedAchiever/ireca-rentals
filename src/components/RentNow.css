@@ -1,0 +1,117 @@
+.rent-now-body-container {
+    background: linear-gradient(red, gold, green);
+    display: grid;
+    grid-template-columns: repeat(1, minmax(auto, 2fr));
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+@media screen and (min-width:600px) and (max-width:940px) {
+    .rent-now-body-container{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(auto, 2fr));
+    }
+}
+@media screen and (min-width:941px) {
+    .rent-now-body-container{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(auto, 2fr));
+    }
+}
+.rent-now-body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+.main-car{
+    position: relative;
+    width: 100%;
+    display: inline;
+    box-shadow: 13px -13px 10px -10px rgba(0, 0, 0, 0.56);
+}
+.rent-now-img{
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+}
+.rent-now-img img{
+    max-width: 100%;
+    margin-top: 20px;
+}
+.rent-now-img-info{
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+    border: 1.5px dashed orange;
+    margin-top: 5px;
+    position: relative;
+    background: #d0f350;
+}
+.rent-now-img-info-head button{
+    padding: 5px 30px;
+    background: #fff;
+    position: absolute;
+    font-size: 20px;
+    top: -20%;
+    left: 30%;
+    transform: translate(-17% -25%);
+    transition: all .3s ease-in-out;
+}
+.rent-now-img-info-head button a{
+    text-decoration: none;
+    color: #333;
+    border: 2px transparent;
+}
+.rent-now-img-info-head button:hover{
+    background: #ffa500;
+    color: #ffc0cb;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.56);
+    border: inherit;
+}
+.rent-now-img-info-head button span{
+    display: block;
+    font-size: 12px;
+}
+.rent-now-img-info-head h3{
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.rent-now-img-info-head p{
+    font-size: 15px;
+    font-weight: 540;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+}
+.rent-now-img-info-head p span{
+    font-weight: 700;
+}
+.rent-now-img-info-body{
+    width: 80%;
+    height: fit-content;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 20%;
+}
+.rent-now-img-info-body ul{
+    list-style: none;
+    line-height: 33px;
+}
+.rent-now-img-info-body ul li{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+.rent-now-img-info-body ul:nth-child(1){
+    float: left;
+}

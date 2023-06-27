@@ -1,6 +1,4 @@
-
 import './RentPageChildren.css';
-import Booking from './Booking';
 import "./Booking.css";
 import React, { Component } from 'react';
 
@@ -12,46 +10,50 @@ class BMW extends Component {
       [
         {
           name:"BMW One",
-          imgUrl:"./audi-a3-600x400.jpg"
+          imgUrl:"./Lexus-RX-fsport-ultra-600x400.jpg",
+          price:115
         },
         {
           name:"BMW Two",
-          imgUrl:"./2018_ford_mustang_ecoboost_convertible_4k_2-1280x720-1-750x420.jpg"
+          imgUrl:"./2019-lexus-lf-lc-600x400.jpg",
+          price:140
+        },
+        {
+          name:"BMW Three",
+          imgUrl:"./ag_mc_ford_raptor_5k-1280x720-1-750x420.jpg",
+          price:200
         }
       ]
-  let rentbtn = document.getElementById("btn");
-
   }
 
   rentCar = name =>{
-    // Getting individual buttons for its own function
+        // Getting individual buttons for its own function
 
-    if(name){
-      document.getElementById("carName").value = name;
-    }
+        if(name){
+          document.getElementById("carName").value = name;
+        }
 
-    // Showing The Booking Form
-    
-    let show = document.getElementById("booking-container");
-    show.classList.toggle("display");
-}
+        // Showing The Booking Form
 
+        let show = document.getElementById("booking-container");
+        show.classList.toggle("display");
+  }
 
   render() {
     return (
-      <div className='rental-body-container' id='bmw'>
+      <div className='rental-body-container'>
         {
-          this.state.map(( {name, imgUrl}) => (
-            <div>
+          this.state.map(( {name, imgUrl, price}) => (
+            <div key={name}>
               <div className='rental-body'>
                <div className='main-car'>
                 <div className='rental-img'>
-                 <img src={imgUrl} />
+                 <img src={imgUrl} alt='Car'/>
                </div>
               <div className='rental-img-info'>
                 <div className='rental-img-info-head'>
                   <button onClick={() => this.rentCar(name)}>
-                    <a href='#booking-container'>GHC&nbsp;100 /day 
+                    <a href='#booking-container'>GHC&nbsp;{price} /day 
                      <span>Rent&nbsp;Me</span>
                     </a>
                   </button>

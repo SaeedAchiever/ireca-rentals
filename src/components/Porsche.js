@@ -9,15 +9,18 @@ class Porsche extends Component {
       [
         {
           name:"Porsche One",
-          imgUrl:"./ag_mc_ford_raptor_5k-1280x720-1-750x420.jpg"
+          imgUrl:"./ag_mc_ford_raptor_5k-1280x720-1-750x420.jpg",
+          price:235
         },
         {
           name:"Porsche Two",
-          imgUrl:"./audi-a3-600x400.jpg"
+          imgUrl:"./audi-a3-600x400.jpg",
+          price:205
         },
         {
           name:"Porsche Three",
-          imgUrl:"./2018_ford_mustang_ecoboost_convertible_4k_2-1280x720-1-750x420.jpg"
+          imgUrl:"./2018_ford_mustang_ecoboost_convertible_4k_2-1280x720-1-750x420.jpg",
+          price:299
         }
       ]
   }
@@ -39,17 +42,17 @@ class Porsche extends Component {
     return (
       <div className='rental-body-container' id='porsche'>
         {
-          this.state.map(( {name, imgUrl}) => (
-            <div>
+          this.state.map(( {name, imgUrl, price}) => (
+            <div key={name}>
               <div className='rental-body'>
                <div className='main-car'>
                 <div className='rental-img'>
-                 <img src={imgUrl} />
+                 <img src={imgUrl} alt='Car'/>
                </div>
               <div className='rental-img-info'>
                 <div className='rental-img-info-head'>
                   <button onClick={() => this.rentAudi(name)}>
-                    <a href='#booking-container'>GHC&nbsp;100 /day 
+                    <a href='#booking-container'>GHC&nbsp;{price} /day 
                      <span>Rent&nbsp;Me</span>
                     </a>
                   </button>

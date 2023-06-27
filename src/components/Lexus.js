@@ -16,7 +16,6 @@ class Lexus extends Component {
           name:"Lexus Two",
           imgUrl:"./Lexus-GS-350-600x400.jpg",
           price:205
-
         },
         {
           name:"Lexus Three",
@@ -46,8 +45,6 @@ class Lexus extends Component {
       document.getElementById("carName").value = name;
     }
 
-   
-
     let show = document.getElementById("booking-container");
     show.classList.toggle("display");
   }
@@ -57,7 +54,7 @@ class Lexus extends Component {
       <div className='rental-body-container active-page'>
         {
           this.state.map(( {name, imgUrl, price}) => (
-            <div>
+            <div key={name}>
               <div className='rental-body'>
                <div className='main-car'>
                 <div className='rental-img'>

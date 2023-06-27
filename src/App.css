@@ -12,5 +12,5 @@ body{
   display: block;
   margin: 0 auto;
   max-width: 1250px;
-  overflow: hidden;
+  overflow: hidden !important;
 }

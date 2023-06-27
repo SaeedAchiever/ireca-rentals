@@ -1,5 +1,4 @@
 import './RentPageChildren.css';
-import Booking from './Booking';
 import "./Booking.css";
 import React, { Component } from 'react';
 
@@ -11,15 +10,18 @@ class Audi extends Component {
       [
         {
           name:"Audi One",
-          imgUrl:"./audi-a3-600x400.jpg"
+          imgUrl:"./audi-a3-600x400.jpg",
+          price:115
         },
         {
           name:"Audi Two",
-          imgUrl:"./2019-lexus-lf-lc-600x400.jpg"
+          imgUrl:"./2019-lexus-lf-lc-600x400.jpg",
+          price:140
         },
         {
           name:"Audi Three",
-          imgUrl:"./ag_mc_ford_raptor_5k-1280x720-1-750x420.jpg"
+          imgUrl:"./ag_mc_ford_raptor_5k-1280x720-1-750x420.jpg",
+          price:200
         }
       ]
   }
@@ -41,17 +43,17 @@ class Audi extends Component {
     return (
       <div className='rental-body-container'>
         {
-          this.state.map(( {name, imgUrl}) => (
-            <div>
+          this.state.map(( {name, imgUrl, price}) => (
+            <div key={name}>
               <div className='rental-body'>
                <div className='main-car'>
                 <div className='rental-img'>
-                 <img src={imgUrl} />
+                 <img src={imgUrl} alt='Car'/>
                </div>
               <div className='rental-img-info'>
                 <div className='rental-img-info-head'>
                   <button onClick={() => this.rentCar(name)}>
-                    <a href='#booking-container'>GHC&nbsp;100 /day 
+                    <a href='#booking-container'>GHC&nbsp;{price} /day 
                      <span>Rent&nbsp;Me</span>
                     </a>
                   </button>
