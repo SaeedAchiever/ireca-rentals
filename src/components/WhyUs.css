@@ -30,28 +30,28 @@
     transition: all .4s;
 }
 .why-us-first .why-us-body:nth-child(1):hover{
-background: url(../../public/Homepage-Model-X-Mobile-LHD.jpeg);
+background: url(../images/Homepage-Model-X-Mobile-LHD.jpeg);
 background-position: center;
 background-size: cover;
 color: #ccc;
 text-shadow: 1px 1px #000;
 }
 .why-us-first .why-us-body:nth-child(2):hover{
-    background: url(../../public/Lexus-GS-fsport-600x400.jpg);
+    background: url(../images/Lexus-GS-fsport-600x400.jpg);
     background-position: center;
     background-size: cover;
     color: #ccc;
     text-shadow: 1px 1px #000;
 }
 .why-us-second .why-us-body:nth-child(1):hover{
-    background: url(../../public/Lexus-GS-350-600x400.jpg);
+    background: url(../images/Lexus-GS-350-600x400.jpg);
     background-position: center;
     background-size: cover;
     color: #ccc;
     text-shadow: 1px 1px #000;
 }
 .why-us-second .why-us-body:nth-child(2):hover{
-    background: url(../../public/2019-Lexus-ES-600x400.jpg);
+    background: url(../images/2019-Lexus-ES-600x400.jpg);
     background-position: center;
     background-size: cover;
     color: #ccc;

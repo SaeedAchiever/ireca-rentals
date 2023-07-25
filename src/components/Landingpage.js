@@ -19,7 +19,7 @@ function Landingpage() {
     SwiperCore.use([Autoplay])
 
   return (
-    <>
+    <React.Fragment>
 
         <Swiper
        modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -145,7 +145,7 @@ function Landingpage() {
       </SwiperSlide>
      
     </Swiper>
-    </>
+    </React.Fragment>
   )
 }
 

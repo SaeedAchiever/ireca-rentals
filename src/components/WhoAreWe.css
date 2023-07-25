@@ -89,7 +89,7 @@
     transition: all .3s ease-in-out;
 }
 .who-are-we-note h3 span a:hover{
-    background: url(../../public/logo_mobile.png);
+    background: url(../images/logo_mobile.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

@@ -127,7 +127,7 @@ class Booking extends Component{
     
     render(){
   return (
-    <>
+    <React.Fragment>
         <div className='booking-container'
              id='booking-container'>
             <div className='booking'>
@@ -244,7 +244,7 @@ class Booking extends Component{
                 </div>
             </div>
         </div>
-    </>
+    </React.Fragment>
   )
     }
 }
